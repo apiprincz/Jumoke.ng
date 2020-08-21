@@ -40,11 +40,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stephendoyin/KJK.Africa-Website.git"
+    "url": ""
   },
   "bugs": {
-    "url": "https://github.com/stephendoyin/KJK.Africa-Website/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/stephendoyin/KJK.Africa-Website#readme",
+  "homepage": "",
   "description": ""
 }
