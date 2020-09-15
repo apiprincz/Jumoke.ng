@@ -1,0 +1,106 @@
+.contact {
+    background: #F6F5FF;
+    padding: 60px 5% 40px;
+    /* background: url(../../../assets/images/contact-bg.png); */
+
+    &-container {
+        position: relative;
+        padding-top:180px;
+    }
+
+    &-info {
+        position: absolute;
+        top: -20%;
+        width: 100%;
+        background: linear-gradient(0deg, rgba(255, 51, 0, -7), rgba(255, 51, 0, -25)), url(../../../assets/images/contact-bg.png);;
+        background-size:cover;
+        border-radius: 10px;
+        padding:40px;  
+        text-align:center;  
+        /* background-size: contain; */
+        
+        & > div {
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 0px;
+            
+        }
+    }
+     h1 {
+        font-family: Work Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 70px;
+        /* identical to box height, or 50% */
+        
+        letter-spacing: -0.05em;
+        
+        color: #FFFFFF;         
+     }
+     p {
+        font-family: Work Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 35px;
+        color: #FFFFFF;
+        margin: 0px 10px;         
+     }
+     p.sub {
+        font-family: Work Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 50px;
+        /* identical to box height, or 140% */
+        
+        
+        color: #FFFFFF;         
+     }
+
+    &-socials {
+        display: flex;
+        justify-content:space-between;
+
+
+        & a {
+            display: inline-block;
+            background:white;
+            width: 30px;
+            height: 30px;
+            border-radius:50%;
+            padding:8px;
+            text-align: center;
+            margin:0px 20px;
+
+            &.facebook {
+
+            padding: 8px;
+
+            & img {
+                width:8px;
+                /* padding:  10px; */
+            }
+            }
+            & img {
+                width: 14px;
+            }
+        }
+    }
+    .tel::before {
+        content: url(../../../assets/images/tel.png);
+        display:inline-block;
+        transform: scale(0.7);
+        vertical-align: middle;
+    }
+    .mail::before {
+        content: url(../../../assets/images/mail.png);
+        display:inline-block;
+        transform: scale(0.7);
+        vertical-align: middle;
+        padding-right: 10px;
+    }
+}

@@ -1,0 +1,49 @@
+.btn {
+    
+    &--link {
+        font-family: Work Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 30px;
+        /* identical to box height, or 167% */
+        
+        letter-spacing: -0.02em;
+        
+        color: #FF3300; 
+        position: absolute;
+        /* top: 2px; */
+        bottom: 10px;
+        WIDTH: 62%;
+        right: 18px;               
+    }
+   &-submit {
+    background: #FF3300;
+    border-radius: 40px;  
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    padding: 10px 30px;
+    letter-spacing: -0.05em;
+    
+    color: #FFFFFF; 
+    position: absolute;
+    bottom: 0px;
+    right: 0;        
+   }
+   &-download {
+    background: #FF3300;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 40px;
+    padding: 24px 40px;
+    /* identical to box height, or 114% */
+    border-radius: 35px;
+    
+    color: #FFFFFF;    
+   }
+}

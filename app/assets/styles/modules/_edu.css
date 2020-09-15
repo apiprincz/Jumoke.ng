@@ -1,0 +1,102 @@
+.edu {
+    background: #F6F5FF;
+    &-container {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    &-story {
+        width: 46%;
+        padding:100px 20px 50px 0px;
+        
+    }
+    &-img {
+        width: 48%;
+        position: relative;
+        text-align: center;
+        /* overflow: hidden; */
+
+        
+        &-story {
+            width: 40%;
+        }
+
+        & img {
+            width: 100%;
+            /* transform:translateY(80px) */
+            
+        }
+
+
+        &-bg {
+            position: absolute;
+            bottom: 0;
+            width: 95%;
+            
+        
+            & img {
+                width: 100%;
+                /* transform:translateY(0px) */
+            
+            }
+        }
+
+
+    }
+    &-wrapper {
+        padding: 10px 0px;
+    }
+    &-tabs {
+        padding-bottom:10px;  
+        & a {
+        font-family: Work Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 40px;
+        color: #303450;  
+            
+        }
+
+        & ul {
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    &-title {
+        font-family: Work Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+        color: #212338;        
+    }
+    &-school {
+        font-family: Work Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 40px;
+        color: #212338;        
+    }
+    &-course {
+        font-family: Work Sans;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 40px;
+        color: #212338;        
+    }
+    &-year {
+        font-family: Work Sans;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 50px;
+        color: #FF3300;
+             
+    }
+
+}

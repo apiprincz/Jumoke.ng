@@ -1,0 +1,66 @@
+.about {
+    padding-bottom: 50px;
+
+    & h5 {
+        font-family: Work Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 50px;
+        color: #303450;
+        
+    }
+
+    & p {
+        font-family: Work Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 40px;
+        color: #FF3300;
+    }
+    &-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    &-summary {
+        width: 38%;
+    }
+    &-story{
+        width: 52%;
+
+        & p {
+            font-family: Work Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 28px;
+            color: #303450;            
+        }
+        & > div {
+            padding-bottom: 30px;
+        }
+    }
+    &-btn {
+        font-family: Work Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 35px;
+        color: #363F44;
+
+        &::after {
+            content: url(../../../assets/images/arrow.png);
+            vertical-align: text-bottom;
+            display: inline-block;
+            transform: scale(0.7);
+            padding-left: 16px;            
+        }
+        &:hover {
+            color: #FF3300;
+        }
+    }
+   
+}

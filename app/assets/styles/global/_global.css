@@ -1,0 +1,79 @@
+* {
+    /* font-weight:   */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: "Sofia Pro";
+    /* font-family: "Montserrat", sans-serif; */
+}
+a {
+    text-decoration: none;
+    list-style-type: none;
+}
+body {
+    
+}
+
+ul li{
+    display: flex;
+    flex-direction: row;
+}
+header {
+    position: fixed;
+    background: white;
+    width: 100%;
+    z-index: 10000;
+}
+.base-font {
+    font-size: 18px;
+}
+form {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom: 90px;
+
+    & > div {
+        width: 48%;
+        /* padding: 20px; */
+        &.message {
+            width: 100%;
+        }
+    }
+     & input,textarea {
+         width: 100%;
+     }
+}
+label {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 65px;
+    letter-spacing: -0.05em;
+    
+    color: #303450;    
+}
+
+input,textarea {
+    border: 1px solid #67788A;
+    box-sizing: border-box;
+    border-radius: 10px; 
+    font-size: 26px; 
+    outline: none; 
+    padding: 30px; 
+    background: none;
+    resize: none;
+}
+textarea {
+    resize: none;
+}

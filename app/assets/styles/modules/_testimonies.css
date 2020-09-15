@@ -1,0 +1,104 @@
+.testimonies {
+    padding: 26px 50px 115px;
+
+& h1 {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 50px;
+    color: #303450;        
+}
+
+&-goal {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 40px;
+    color: #FF3300;        
+}
+
+&__container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items:flex-start;
+    padding-top: 40px;
+}
+
+&__card {
+    width: 32%;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    padding: 16px 25px;
+    margin-bottom: 60px;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 15px;  
+         
+   
+    &:hover {
+        
+        animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+        transform: translate3d(0, 0, 0);
+        backface-visibility: hidden;
+        perspective: 1000px;
+          
+    }
+}
+&__logo {
+    text-align: center;
+    margin: 0 auto;
+    
+    
+    
+    
+}
+
+&__desc {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    
+    color: #303450;           
+}
+&__author {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+&-info {
+    padding-left: 20px;
+}
+&-name {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 34px;
+    /* or 158% */
+    
+    
+    color: #303450;    
+}
+&-post {
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+    /* text-align: right; */
+    letter-spacing: -0.02em;
+    
+    color: #FF3300;        
+}
+
+
+
+
+}

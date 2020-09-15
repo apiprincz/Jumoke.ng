@@ -1,0 +1,13 @@
+@import 'global/_global.css';
+@import 'base/_base.css';
+@import 'modules/_header.css';
+@import 'modules/_btn.css';
+@import 'modules/_intro.css';
+@import 'modules/_about.css';
+@import 'modules/_edu.css';
+@import 'modules/_recognition.css';
+@import 'modules/_contact.css';
+@import 'modules/_testimonies.css';
+@import 'modules/_bio.css';
+@import 'modules/_footer.css';
+@import 'modules/_swiper.css';
