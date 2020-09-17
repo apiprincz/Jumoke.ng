@@ -102,3 +102,55 @@
 
 
 }
+
+@media only screen and (max-width:1024px) {
+    .testimonies__card{
+        width: 47%;
+    }
+    .testimonies__desc {
+        font-size: 13px;
+    }
+    .testimonies-name {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:768px) {
+    .testimonies {
+        padding: 26px 50px 25px;
+    }
+    .testimonies__container {
+        justify-content: center;
+    }
+    .testimonies__card{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .testimonies__desc {
+        font-size: 13px;
+    }
+    .testimonies-name {
+        font-size: 20px;
+    }
+    .testimonies-goal {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width:512px) {
+ 
+    .testimonies__card{
+        width: 100%;
+        
+    }
+    .testimonies-goal {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    
+}
+@media only screen and (max-width:425px) {
+ 
+    .testimonies {
+        padding: 26px 0px 1px;
+    }
+    
+}

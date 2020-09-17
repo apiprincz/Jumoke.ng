@@ -77,3 +77,18 @@ input,textarea {
 textarea {
     resize: none;
 }
+@media only screen and (max-width:1024px){
+    .no-break {
+        display: none;
+    }
+}
+@media only screen and (max-width:768px){
+    form > div {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:425px){
+    input, textarea {
+        padding: 16px;
+    }
+}

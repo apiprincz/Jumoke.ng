@@ -81,3 +81,105 @@
     }
 
 }
+
+@media only screen and (max-width:1120px) {
+    .intro h1 {
+        font-size: 79px;
+        line-height: 74px;
+        
+    }
+    .intro h5 {
+        font-size: 32px;
+    }
+
+    .intro p {
+        font-size: 13px;
+        line-height: 55px;
+        
+    }
+}
+@media only screen and (max-width:768px) {
+    .intro-text {
+        width: 86%;
+        order: 1;
+        
+    }
+    .intro {
+        padding-top: 76px;
+        padding-bottom: 30px;
+    }
+    .intro-container {
+        flex-direction: column;
+        
+    }
+}
+@media only screen and (max-width:512px) {
+  
+    .intro-text {
+        width: 100%;
+      
+        
+    }
+    .intro p{
+        font-size: 13px;
+        line-height: 20px;
+        padding: 10px 0px;
+    }
+    .intro h1 {
+        font-size: 72px;
+        line-height: 68px;
+        
+    }
+    .intro h5 {
+        font-size: 27px;
+    }
+    .intro h4 {
+     
+        font-size: 15px;
+        line-height: 20px;
+        
+    }
+}
+
+
+@media only screen and (max-width:425px) {
+    .intro-text {
+        width: 100%;
+      
+        
+    }
+    
+    .intro p{
+        font-size: 13px;
+        line-height: 20px;
+        padding: 10px 0px;
+    }
+    .intro h1 {
+        font-size: 62px;
+        line-height: 60px;
+        
+    }
+    .intro h5 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .intro-text {
+        width: 100%;
+      
+        
+    }
+    .intro h1 {
+        font-size: 53px;
+        line-height: 50px;
+    }
+    .intro p{
+        font-size: 13px;
+        line-height: 20px;
+        padding: 10px 0px;
+    }
+    .intro h5 {
+        font-size: 25px;
+    }
+}

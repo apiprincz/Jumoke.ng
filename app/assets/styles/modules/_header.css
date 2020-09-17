@@ -20,7 +20,31 @@
         width: 66%;
     
     }
+    &-toggle{
+        background: transparent;
+        height: 25px; 
+        width: 30px;
+        position: relative;
+        cursor: pointer;
+        z-index: 100;
 
+        &--close .header-icon{
+            width: 0%;
+
+            &::after{
+                width: 100%;
+                transform: rotate(-45deg);
+                top: 10px;
+            }
+            &::before{
+                width: 100%;
+                transform: rotate(45deg);
+                top: 10px;
+            }
+        }
+
+       
+    }
     &-list {
         display: flex;
         justify-content:space-between;

@@ -67,3 +67,83 @@
     }
 
 }
+@media only screen  and (max-width:1024px){
+    .bio h1 {
+        font-size: 46px;
+    }
+    .bio p {
+        font-size: 20px;
+    }
+    .bio-rectangle {
+        height: 630px;
+    }
+    .bio-bg img {
+        width: 100%;
+        transform: translateY(78px);
+    }
+}
+@media only screen  and (max-width:768px){
+    .bio-container {
+        flex-direction: column;
+    }
+    .bio-info {
+        padding: 10px 0px;
+        z-index: 20;
+        transform: translateY(30px);
+    }
+    .bio h1 {
+        font-size: 38px;
+    }
+    .bio p {
+        font-size: 18px;
+    }
+}
+@media only screen  and (max-width:512px){
+    .bio h1 {
+        font-size: 30px;
+    }
+    .bio-info {
+        padding: 10px 0px;
+        z-index: 20;
+        transform: translateY(30px);
+    }
+    .bio p {
+        font-size: 16px;
+    }
+    .bio-rectangle {
+        height:433px;
+    }
+    .bio-bg img {
+        
+        transform: translateY(97px);
+    }
+}
+@media only screen  and (max-width:425px){
+    .bio h1 {
+        font-size: 23px;
+        line-height: 0;
+    }
+    .bio-info {
+        padding: 10px 0px;
+        z-index: 20;
+        transform: translateY(30px);
+    }
+    .bio p {
+        font-size: 13px;
+    }
+    .bio-bg img {
+        
+        transform: translateY(65px);
+    }
+    .bio-rectangle {
+        height: 300px;
+        bottom: -24px;
+    }
+    .btn-download {
+     
+        font-size: 15px;
+        line-height: 40px;
+        padding: 16px 24px;
+        
+    }
+}

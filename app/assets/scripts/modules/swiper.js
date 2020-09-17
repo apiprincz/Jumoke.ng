@@ -6,45 +6,64 @@ class SwiperSection {
 
         this.rightArrow = document.querySelector('.testimonials__trigger--right');
         this.leftArrow = document.querySelector('.testimonials__trigger--left');
-        if (!(isNull(this.rightArrow))) {
-            this.slideInit();
-            this.triggerSlider();
-        }
+        this.slideInit();
+       
     }
 
 
 
     slideInit() {
-        this.mySwiper = new Swiper('.swiper-container', {
-            autoplay: {
-                delay: 9000,
-            },
-            loop: true,
+        // this.mySwiper = new Swiper('.corouzel__container', {
+            
+        //     loop: true,
+        //     speed: 800,
+        //     grabCursor: true,
+        //     slidesPerView: 4,
+
+        //     pagination: {
+        //         el: '.swiper-pagination',
+        //     },
+        //     navigation: {
+        //         nextEl: '.swiper-button-next',
+        //         prevEl: '.swiper-button-prev',
+        //     },
+           
+
+        // });
+
+        this.mySwiper = new Swiper(".corouzel__container", {
+            
             speed: 800,
-            grabCursor: true,
-            pagination: {
-                el: '.swiper-pagination',
+            autoplay: {
+              
+                disableOnInteraction: false,
             },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-
-        });
-
-        
+            slidesPerView: 5,
+            // Responsive breakpoints
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                },
+                // when window width is >= 320px
+                530: {
+                    slidesPerView: 2,
+                },
+                // when window width is >= 480px
+                730: {
+                    slidesPerView: 3,
+                },
+                1200: {
+                    slidesPerView: 4,
+                },
+                1250: {
+                    slidesPerView: 5
+                }
+            }
+        })
     }
 
 
-    triggerSlider() {
-
-        this.rightArrow.addEventListener('click', () => {
-            this.mySwiper.slideNext();
-        });
-        this.leftArrow.addEventListener('click', () => {
-            this.mySwiper.slidePrev();
-        });
-    }
+ 
 }
 
 
