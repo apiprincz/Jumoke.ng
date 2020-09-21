@@ -33,6 +33,7 @@ class Header {
             
             }
         this.navItems[i].classList.add('colored')
+        
             
         }
         

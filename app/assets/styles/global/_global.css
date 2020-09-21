@@ -78,6 +78,18 @@ input,textarea {
 textarea {
     resize: none;
 }
+.owl-carousel {
+
+    padding: 20px 0px;
+}
+.owl-carousel .owl-stage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.owl-carousel .owl-item img.resize {
+    width: 50%;
+}
 @media only screen and (max-width:1024px){
     .no-break {
         display: none;

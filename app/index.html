@@ -7,9 +7,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;900&display=swap"
         rel="stylesheet">
     <script src="temp/scripts/Vendor.js" ></script>
+    
 
     <link rel="stylesheet" href="temp/styles/styles.css" >
-
+    <!-- <link rel="stylesheet" href="OwlCarousel2-2.3.4\dist\assets\owl.carousel.css"> 
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4\dist\assets\owl.carousel.min.css"> -->
+    <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css">
 </head>
 
 <body>
@@ -17,7 +21,7 @@
         <nav class="header row">
 
             <div class="header-logo">
-                <a href="">
+                <a class="nav-home" href="#home">
                     <img src="./assets/images/logo.png" alt="">
                 </a>
             </div>
@@ -38,12 +42,12 @@
             
             <div class="mobile-nav">
                 <div class="mobile-nav-logo">
-                    <a href="">
+                    <a class="nav-home" href="#home">
                         <img src="./assets/images/logo.png" alt="">
                     </a>
                 </div>
                 <ul class="mobile-nav-menu">
-                    <li><a href="#home">Home</a></li>
+                    <li class="active"><a href="#home">Home</a></li>
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#achievement">Achievement</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -80,38 +84,60 @@
             </div>
         </div>
     </section>
-    <section class="news" style="width: 100%; overflow: hidden; display: none;">
+    <section class="news">
         <div class="row">
-            <div class="corouzel__container ">
+            <!-- <div class="corouzel__container ">
                 <div class="corouzel swiper-wrapper">
-                    <div class="swiper-slide ">
+                    <div class=" ">
                         <img src="assets/images/worldbank.png " alt=" " class=" ">
                     </div>
-                    <div class="swiper-slide ">
+                    <div class=" ">
                         <img src="assets/images/nerfund.png"  alt=" " class=" ">
                     </div>
-                    <div class="ir swiper-slide ">
+                    <div class="  ">
                         <img src="assets/images/yl.png "  alt=" " class=" ">
                     </div>
-                    <div class="ir swiper-slide">
+                    <div class=" ">
                         <img src="assets/images/vc4.png " alt=" " class=" ">
                     </div>
-                    <div class="ir swiper-slide ">
+                    <div class="  ">
                         <img src="assets/images/w.png "  alt=" " class=" ">
                     </div>
-                    <div class="ir  swiper-slide">
+                    <div class="  ">
                         <img src="assets/images/boconni.png " alt=" "  class=" ">
                     </div>
-                    <div class="ir swiper-slide">
+                    <div class=" ">
                         <img src="assets/images/edc.png"  alt=" " class=" ">
                     </div>
                    
                     
                 
                 </div>
+            </div> -->
+
+            <div class="owl-carousel owl-theme">
+                <div class=" ">
+                    <img class="resize" src="assets/images/worldbank.png " alt=" " class=" ">
+                </div>
+                <div class=" ">
+                    <img class="resize" src="assets/images/nerfund.png"  alt=" " class=" ">
+                </div>
+                <div class="  ">
+                    <img class="resize" src="assets/images/yl.png "  alt=" " class=" ">
+                </div>
+                <div class=" ">
+                    <img src="assets/images/vc4.png " alt=" " class=" ">
+                </div>
+                <div class="  ">
+                    <img style="transform: translateX(55%);" class="resize" src="assets/images/w.png "  alt=" " class=" ">
+                </div>
+                <div class="  ">
+                    <img src="assets/images/boconni.png " alt=" "  class=" ">
+                </div>
+                <div class=" ">
+                    <img src="assets/images/edc.png"  alt=" " class=" ">
+                </div>
             </div>
-
-
 
 
         </div>
@@ -124,7 +150,7 @@
                         About me
                     </h5>
                     <p>
-                        I am passionate about building tech solutions that people will use to improve their everyday
+                        I am passionate about building tech solutions that people will use to improve the everyday
                         lives.
                     </p>
                 </div>
@@ -300,7 +326,7 @@
                 <div class="recognition__overlay">
 
                     <div class="recognition__close"></div>
-                    <a href="https://www.wired.it/economia/start-up/2018/03/01/startup-africa-bocconi/" target="_blank"
+                    <a href="https://www.wed.it/economia/start-up/2018/03/01/startup-africa-bocconi/" target="_blank"
                         class="  btn btn--link btn--primary btn--upper-space  btn--hover">
                         <!-- <img src="assets/images/play-slim.png " style="height: 14%; width: 5px; font-size: 14px;" class="btn__img btn__img--small" alt=" "> VIEW -->
                         View
@@ -429,7 +455,7 @@
 
                 <p class="recognition__desc">
                     I was a beneficiary of the YES BootCamp by HYBR. where SME co-founders are trained on how to scale
-                    their businesses.
+                    the businesses.
                 </p>
                 <div class="recognition__btn">
                     <a href="http://www.hybrgroup.net/yes/view-program/bootcamp" target="_blank"
@@ -524,7 +550,7 @@
                     </a>
                 </div>
                 <p class="sub">
-                    For all general inquiries, please use the form below.
+                    For all general inquies, please use the form below.
                 </p>
             </div>
             <form action="">
@@ -705,9 +731,24 @@
             </p>
         </div>
     </section>
-
+   
+    <!-- <script src="jquery.min.js"></script>
+    <script src="OwlCarousel2-2.3.4\dist\owl.carousel.min.js"></script> -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
     <script src="temp/scripts/App.js"></script>
-
+    <script type="text/javascript">
+        
+            $(".owl-carousel").owlCarousel({
+            items:6,  
+    loop:true,
+    margin:10,
+    // autoplay:true,
+    // autoplayTimeout:1000,
+    // autoplayHoverPause:true                
+            
+        });        
+    </script>
 </body>
 
 </html>

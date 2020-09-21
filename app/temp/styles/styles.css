@@ -89,6 +89,21 @@ textarea {
     resize: none;
 }
 
+.owl-carousel {
+
+    padding: 20px 0px;
+}
+
+.owl-carousel .owl-stage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.owl-carousel .owl-item img.resize {
+    width: 50%;
+}
+
 @media only screen and (max-width:1024px){
     .no-break {
         display: none;
@@ -126,10 +141,12 @@ textarea {
 
 .header-logo {
         width: 10%;
+        cursor: pointer;
     }
 
 .header-logo img {
             width: 100%;
+            cursor: pointer;
         }
 
 .header-logo-hide {
@@ -820,11 +837,13 @@ textarea {
 .edu-content {
         display: none;
         opacity: 0;
+        transition: all 0.6s;
     }
 
 .edu-content.active {
         display: block;
         opacity: 1;
+        transition: all 0.3s;
     }
 
 @media only screen and (max-width:1024px) {
@@ -852,6 +871,9 @@ textarea {
     .edu-tabs a {
         font-size: 18px;
     }
+    .edu-bar {
+        width: 77%;
+    }
 }
 
 @media only screen and (max-width:512px) {
@@ -867,6 +889,9 @@ textarea {
     .edu-tabs ul {
         width: 90%;
     }
+    .edu-bar {
+        width: 85%;
+    }
 }
 
 @media only screen and (max-width:425px) {
@@ -877,10 +902,48 @@ textarea {
         width: 100%;
     }
     .edu-school {
-        font-size: 17px;
+        font-size: 14px;
     }
     .edu-bar {
-        width: 100%;
+        width: 95%;
+    }
+    .edu-title {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .edu-course {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .edu-year {
+        font-family: Work Sans;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 39px;
+        color: #FF3300;
+    }
+    .edu-main-container {
+        height: 383px;
+    }
+}
+
+@media only screen and (max-width:350px) {
+    .edu-story {
+        width: 93%;
+    }
+    .edu-tabs ul {
+        width: 97%;
+    }
+  
+    .edu-bar {
+        width: 95%;
+    }
+    .edu-tabs a {
+        font-size: 12px;
+    }
+    .edu-main-container {
+        height: 397px;
     }
 }
 
@@ -1155,9 +1218,11 @@ textarea {
       
     }
     .recognition-goal {
-        font-size: 22px;
+        font-size: 17px;
     }
-    
+    .recognition h1 {
+        font-size: 18px;
+    }
 }
 
 .contact {
@@ -1818,9 +1883,15 @@ textarea {
     padding: 24px 0px;
     transition: all ease-in-out .3s;
     opacity: 0;
+    width: 0;
    
     
 }
+
+.mobile-nav-menu {
+        
+        padding-top:15px;
+    }
 
 .mobile-nav-menu a:link, .mobile-nav-menu a:visited{
             color: #fff;
@@ -1829,18 +1900,22 @@ textarea {
             font-weight: 500;
             text-decoration: none;
             line-height: normal;
-    
             
         }
 
-.mobile-nav-menu a:hover, .mobile-nav-menu a:active {
-            color: #FF3300;
+.mobile-nav-menu a:hover,
+        .mobile-nav-menu a:active {
+            color: #ffffff;
 
         }
 
 .mobile-nav-menu li {
             padding: 20px 0px 20px 20px;
         }
+
+.mobile-nav-menu li.active {
+                background: #FF3300;
+            }
 
 .mobile-nav__container .mobile-nav--resp{
         height: 0;
@@ -1887,6 +1962,8 @@ textarea {
         height: 100vh;
         background: #0707078f;
         opacity: 1;
+        width: auto;
+        transition: all 0.3s;
     }
 
 .mobile-nav--open > .mobile-nav-logo img {

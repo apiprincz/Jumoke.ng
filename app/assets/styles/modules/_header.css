@@ -10,9 +10,11 @@
 
     &-logo {
         width: 10%;
+        cursor: pointer;
 
         & img {
             width: 100%;
+            cursor: pointer;
         }
         &-hide {
             opacity: 0;

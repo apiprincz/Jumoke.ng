@@ -247,7 +247,9 @@
       
     }
     .recognition-goal {
-        font-size: 22px;
+        font-size: 17px;
     }
-    
+    .recognition h1 {
+        font-size: 18px;
+    }
 }
