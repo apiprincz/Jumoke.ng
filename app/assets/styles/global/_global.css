@@ -11,6 +11,7 @@ html {
     padding: 0;
     color: black;
     font-family: "Sofia Pro";
+    scroll-behavior: smooth;
     /* font-family: "Montserrat", sans-serif; */
 }
 a {
